@@ -1,0 +1,93 @@
+*{
+	outline: none;
+}
+
+form {
+
+	width: 38%;
+	margin: 10px auto;
+	padding: 30px;
+	border: 1px solid #555;
+
+}
+
+input {
+	width: 100%;
+	border: 1px solid #f1e1e1;
+	display: block;
+	padding: 5px 10px;
+
+}
+
+button {
+
+	border : solid 1px;
+	padding: 10px;
+	border-radius: 10px;
+	margin-top: 30px;
+}
+
+table {
+
+	width: 60%;
+	border-collapse: collapse;
+	margin: 100px auto;
+	padding: 80px;
+	margin-top: 40px;
+
+
+}
+
+th, td {
+
+	height: 50px;
+	vertical-align: center;
+	border: 1px solid black;
+}
+
+<style type="text/css">
+#busca {
+margin:0 auto;
+padding:0;
+background-color: red;
+}
+#txtbusca {
+border:0px solid #222;
+background:#EEE;
+width:500px;
+height:23px;
+margin:0 auto;
+padding:5px 0 5px 5px;
+float:left; // posição do campo
+line-height:36px; // altura da linha
+background-color: red;
+
+}
+#btnBusca {
+background:#00cccc;
+position:relative;
+border:0px solid #222;
+color:#FFF; 
+margin:0 auto;
+padding:10px;
+border:0 none;
+font-size:11px;
+font-weight:bold;
+text-transform:uppercase;
+margin-top: 50px;
+width: 150px;
+}
+#btnBusca:hover {
+background:#99cccc; 
+background-color: red;
+
+}<style>
+
+
+.sidebar__link {
+	color: #f3f4f6;
+	padding: 10px;
+	border-radius: 3px;
+	margin-bottom: 5px;
+	background-color: red;
+}
